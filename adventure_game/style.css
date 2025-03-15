@@ -1,26 +1,19 @@
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	height: 90vh;
 	background-color: cornsilk;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	text-align: center;
 }
 
 p {
-	font-size: 2em;
+	font-size: 2ch;
 }
 
 a {
 	font-size: 1.5em;
 	text-decoration: none;
-	padding: 1ch;
-	border: 1px solid red;
-  background-color: hsl(0, 0%, 86%);
+	background-color: hsl(0, 0%, 85%);
   border: 3px solid hsl(0, 0%, 66%);
-	color: black;
+	padding: 1ch;
 	margin: 0.25em;
 }
 
@@ -28,6 +21,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-a:active {
-  background-color: hsl(0, 0%, 78%);
+div {
+	margin: 2em;
 }
