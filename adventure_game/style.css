@@ -39,10 +39,6 @@ div {
 
 img {
 	max-width: 50em;
-	max-height: 40em;
+	max-height: 30em;
 	min-width: 25em;
-}
-
-.greyscale {
-	filter: grayscale();
 }
