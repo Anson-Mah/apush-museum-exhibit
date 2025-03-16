@@ -20,7 +20,8 @@ p {
 	font-size: 2ch;
 }
 
-a {
+button {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 1.5em;
 	text-decoration: none;
 	background-color: hsl(0, 0%, 85%);
@@ -29,12 +30,9 @@ a {
 	margin: 0.25em;
 }
 
-a:hover {
+button:hover {
 	text-decoration: underline;
-}
-
-div {
-	margin: 2em;
+	cursor: pointer;
 }
 
 img {
