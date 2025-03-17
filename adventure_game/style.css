@@ -2,6 +2,7 @@ body {
 	background-color: hsl(35, 55%, 85%);
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	text-align: center;
+	/* overflow: hidden; */
 }
 
 .bad {
@@ -36,7 +37,7 @@ button:hover {
 }
 
 img {
-	max-width: 50em;
+	max-width: 45em;
 	max-height: 30em;
-	min-width: 25em;
+	min-width: 28em;
 }
